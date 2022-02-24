@@ -1,4 +1,4 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
@@ -26,8 +26,6 @@ proxies:
   - {name: ZZ_3452 |42.69Mb, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: ZZ_3472 |44.04Mb, server: 134.195.196.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: US_1248 |36.62Mb, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: "*墙已变高，如遇断连，请换节点，我们正在更换IP", server: 1.1.1.1, port: 65535, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 1.1.1.1}, udp: true}
-  - {name: "*严禁测速，为了保证所有人的宽带公平", server: 1.1.1.1, port: 65535, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: d37xr2wb5cxle7.cloudfront.net}, udp: true}
   - {name: 【直连】HKG/香港 - 80端口 - 1, server: 001.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 001.AP.POP.BIGAIRPORT.NET}, udp: true}
   - {name: 【直连】HKG/香港 - 443端口 - 2, server: 002.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 002.AP.POP.BIGAIRPORT.NET}, udp: true}
   - {name: 【直连】TYO/东京 - 80端口 - 1, server: 003.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 003.AP.POP.BIGAIRPORT.NET}, udp: true}
@@ -64,6 +62,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 故障转移
       - EE_458 | 8.56Mb
       - EE_460 | 4.58Mb
       - HK_690 | 6.89Mb
@@ -85,8 +84,6 @@ proxy-groups:
       - ZZ_3452 |42.69Mb
       - ZZ_3472 |44.04Mb
       - US_1248 |36.62Mb
-      - "*墙已变高，如遇断连，请换节点，我们正在更换IP"
-      - "*严禁测速，为了保证所有人的宽带公平"
       - 【直连】HKG/香港 - 80端口 - 1
       - 【直连】HKG/香港 - 443端口 - 2
       - 【直连】TYO/东京 - 80端口 - 1
