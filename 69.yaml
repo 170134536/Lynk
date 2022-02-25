@@ -1,141 +1,515 @@
-port: 7890
+﻿port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: EE_458 | 8.56Mb, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: EE_460 | 4.58Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK_690 | 6.89Mb, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 27795, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
-  - {name: HK_692 |11.10Mb, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 60844, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
-  - {name: CN_696, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: HK_688 | 8.91Mb, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 55899, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
-  - {name: HK_675 | 8.84Mb, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 63379, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
-  - {name: US_1269, server: 7.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 7.earths.team, skip-cert-verify: true, udp: true}
-  - {name: US_1278 |33.20Mb, server: 20.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 20.earths.team, skip-cert-verify: true, udp: true}
-  - {name: US_1279 |33.74Mb, server: 209.141.47.137, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
-  - {name: EE_459 |23.61Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP-45.142.165.23-61, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: EE_802, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK_676 | 9.15Mb, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 54975, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
-  - {name: ZZ_3479 |32.76Mb, server: 134.195.196.150, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: EE_456 | 7.85Mb, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_58, server: in04.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
-  - {name: HK_689 | 5.83Mb, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 44171, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
-  - {name: ZZ_3452 |42.69Mb, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_3472 |44.04Mb, server: 134.195.196.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1248 |36.62Mb, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: 【直连】HKG/香港 - 80端口 - 1, server: 001.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 001.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】HKG/香港 - 443端口 - 2, server: 002.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 002.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】TYO/东京 - 80端口 - 1, server: 003.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 003.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】TYO/东京 - 443端口 - 2, server: 004.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 004.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SIN/狮城 - 80端口 - 1, server: 005.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 005.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SIN/狮城 - 443端口 - 2, server: 006.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 006.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】ICN/首尔 - 80端口 - 1, server: 007.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 007.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】ICN/首尔 - 443端口 - 2, server: 008.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 008.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SJC/圣荷西 - 80端口 - 1, server: 009.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 009.NA.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SJC/圣荷西 - 443端口 - 2, server: 010.NA.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 010.NA.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】HKG/香港 - 1, server: 021.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 【直连】HKG/香港 - 2, server: 022.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: 【直连】TYO/东京 - 1, server: 023.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 023.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】TYO/东京 - 2, server: 024.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 024.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SIN/狮城 - 1, server: 025.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 025.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SIN/狮城 - 2, server: 026.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 026.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】ICN/首尔 - 1, server: 027.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 027.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】ICN/首尔 - 2, server: 028.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 028.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SJC/圣荷西 - 1, server: 029.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 029.NA.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SJC/圣荷西 - 2, server: 030.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 030.NA.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】HKG/香港 - 3, server: 031.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 031.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】HKG/香港 - 4, server: 032.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 032.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】TYO/东京 - 3, server: 033.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 033.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】TYO/东京 - 4, server: 034.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 034.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SIN/狮城 - 3, server: 035.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 035.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SIN/狮城 - 4, server: 036.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 036.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】ICN/首尔 - 3, server: 037.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 037.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】ICN/首尔 - 4, server: 038.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 038.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SJC/圣荷西 - 3, server: 039.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 039.NA.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: 【直连】SJC/圣荷西 - 4, server: 040.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 0afc9a48-4892-49d9-9c42-31ce47ae59af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 040.NA.POP.BIGAIRPORT.NET}, udp: true}
+  - {name: CN_37 | 6.60Mb, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_-🇺🇸US_2502_21.64Mb, server: 198.52.125.218, port: 55432, type: trojan, password: bab4574d-dd84-4003-8926-f45512c39aa3, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: DE_YouTube-阿阳AYANG-科技大师, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: CN_65 |86.32Mb, server: gdcm2.relay.qchwnd.moe, port: 10222, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: gdcm2.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: SG_174 | 7.27Mb, server: azhk.relay.qchwnd.moe, port: 10215, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: _ 9.70Mb, server: 209.141.47.137, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
+  - {name: CN_74 |235.46Mb, server: gzbgpss.8n4t.cn, port: 20115, type: trojan, password: 43a29215-a4c6-3b8a-9697-5242c8f09213, sni: gzbgpss.8n4t.cn, skip-cert-verify: true, udp: true}
+  - {name: ZZ_3518 |34.69Mb, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _20.62Mb, server: 198.57.27.191, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _13.91Mb, server: 198.57.27.191, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _18.52Mb, server: 198.57.27.191, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _20.63Mb, server: 198.57.27.191, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _29.89Mb, server: 172.99.190.206, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _30.12Mb, server: 172.99.190.206, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _18.10Mb, server: 198.57.27.191, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CN_388 | 3.66Mb, server: gdcm2.relay.qchwnd.moe, port: 10221, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: gdcm2.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: _30.23Mb, server: 172.99.190.206, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _30.36Mb, server: 172.99.190.206, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _30.43Mb, server: 172.99.190.206, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: SG_177 | 4.07Mb, server: azhk.relay.qchwnd.moe, port: 10217, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: _ 9.52Mb, server: 198.57.27.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _30.37Mb, server: 172.99.190.206, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _30.33Mb, server: 172.99.190.206, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _30.09Mb, server: 172.99.190.206, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _30.68Mb, server: 172.99.190.206, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _30.13Mb, server: 172.99.190.206, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _29.84Mb, server: 172.99.190.206, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _29.93Mb, server: 172.99.190.206, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _30.02Mb, server: 172.99.190.206, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _29.95Mb, server: 172.99.190.206, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _30.07Mb, server: 172.99.190.206, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _30.63Mb, server: 172.99.190.206, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _29.92Mb, server: 172.99.190.206, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _30.15Mb, server: 172.99.190.206, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _30.02Mb 2, server: 172.99.190.206, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _29.90Mb, server: 172.99.190.206, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Relay__42.48Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 2, server: cu.mj-cn.cyou, port: 16618, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 2 2, server: in03.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 3, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 4, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 5, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 6, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 7, server: cu.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: YouTube-阿阳AYANG-科技大师, server: chuna1.515223.xyz, port: 24793, type: vmess, uuid: 58975106-dc46-4942-b79e-336da67f1bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: -YouTube-阿阳AYANG-科技大师, server: ct.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 8, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 9, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 10, server: hmykr1.tk, port: 443, type: trojan, password: 998ec528-845f-4082-9e1b-26a642b26978, sni: hmykr1.tk, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 11, server: cu.mj-cn.cyou, port: 16620, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 12, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: CN-YouTube-阿阳AYANG-科技大师, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 13, server: xmuswest2.aifx.eu.org, port: 443, type: vmess, uuid: 5daa671e-2383-444e-add0-53513316a6b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /freebaipiao, ws-headers: {Host: xmuswest2.aifx.eu.org}, udp: true}
+  - {name: YouTube-阿阳AYANG-科技大师 2, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: test.0dc.cn}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 14, server: jason.lbtzyw.com, port: 443, type: vmess, uuid: f3a8372f-73aa-4a92-9f23-cfa0a9830d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/zovpvws?ed=2048", ws-headers: {Host: jason.lbtzyw.com}, udp: true}
+  - {name: 油管/阿阳AYANG-科技大师, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: a1effd82-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: US YouTube-阿阳AYANG-科技大师, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 15, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cn2.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 16, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 17, server: oioooo.tk, port: 443, type: trojan, password: 54ea0e82-64e4-486c-848c-8b95be9f0010, sni: oioooo.tk, skip-cert-verify: true, udp: true}
+  - {name: -YouTube-阿阳AYANG-科技大师 2, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: YouTube-阿阳AYANG-科技大师 3, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: DE_YouTube-阿阳AYANG-科技大师 2, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: DE-YouTube-阿阳AYANG-科技大师, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: US-YouTube-阿阳AYANG-科技大师, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 油管/阿阳AYANG-科技大师 2, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: US-YouTube-阿阳AYANG-科技大师 2, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: YouTube-阿阳AYANG-科技大师 4, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: -YouTube-阿阳AYANG-科技大师 3, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: YouTube-阿阳AYANG-科技大师 5, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
+  - {name: -YouTube-阿阳AYANG-科技大师 4, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: -YouTube-阿阳AYANG-科技大师 5, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: dax6ujai.com}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 18, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
+  - {name: 油管/阿阳AYANG-科技大师 3, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: -YouTube-阿阳AYANG-科技大师 6, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: test.0dc.cn}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 19, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: RU-YouTube-阿阳AYANG-科技大师, server: 146.185.218.171, port: 443, type: vmess, uuid: 947af181-c509-4245-80de-9baf64f1aa51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: -YouTube-阿阳AYANG-科技大师 7, server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0107hk.fans8.xyz}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 20, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 油管/阿阳AYANG-科技大师 4, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: 油管/阿阳AYANG-科技大师 5, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: a1effd82-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 21, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 油管/阿阳AYANG-科技大师 6, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: 美国-YouTube-阿阳AYANG-科技大师, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: YouTube-阿阳AYANG-科技大师 6, server: 198.41.212.13, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
+  - {name: 油管/阿阳AYANG-科技大师 7, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 22, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 23, server: 146.56.174.19, port: 57911, type: vmess, uuid: 5b86d344-89e8-4d22-ab6e-1cfcf726c89f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB_阿阳AYANG-科技大师, server: 172.99.190.188, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 24, server: 183.240.132.30, port: 10003, type: vmess, uuid: d76a7e70-530d-4e53-8c50-496f01d4c0a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.240.132.30}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 25, server: in01.dns2333.xyz, port: 64088, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 26, server: chuna1.515223.xyz, port: 24793, type: vmess, uuid: 58975106-dc46-4942-b79e-336da67f1bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 油管/阿阳AYANG-科技大师 8, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: GB阿阳AYANG-科技大师, server: 172.99.190.188, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: GB_阿阳AYANG-科技大师 2, server: 172.99.190.188, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: YouTube-阿阳AYANG-科技大师 7, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: GB_阿阳AYANG-科技大师 3, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 27, server: 146.56.174.19, port: 57911, type: vmess, uuid: 5b86d344-89e8-4d22-ab6e-1cfcf726c89f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: -YouTube-阿阳AYANG-科技大师 8, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 28, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB_阿阳AYANG-科技大师 4, server: 172.99.190.188, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: GB_阿阳AYANG-科技大师 5, server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 韩国YouTube-阿阳AYANG-科技大师, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v.mumi.bid}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 29, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 30, server: 172.99.190.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 31, server: in01.dns2333.xyz, port: 64088, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in01.dns2333.xyz}, udp: true}
+  - {name: YouTube-阿阳AYANG-科技大师 8, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: -YouTube-阿阳AYANG-科技大师 9, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 32, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 33, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 34, server: v3.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 35, server: v8.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 36, server: 11.earths.team, port: 443, type: trojan, password: 2c5f6ea7-0d9a-44c7-bdd0-0f7515ff6c8f, sni: 11.earths.team, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 37, server: 183.240.132.30, port: 10001, type: vmess, uuid: d76a7e70-530d-4e53-8c50-496f01d4c0a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.240.132.30}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 38, server: 183.232.56.161, port: 8001, type: vmess, uuid: 326d3d2b-ac85-3042-9cc4-05aeb7dbe997, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 39, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 40, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 41, server: v3.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 42, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 油管/阿阳AYANG-科技大师 9, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero2.a-yu.xyz}, udp: true}
+  - {name: _油管/阿阳AYANG-科技大师 43, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shuier, ws-headers: {Host: xc1.v2rie.pp.ua}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EE_458 | 8.56Mb
-      - EE_460 | 4.58Mb
-      - HK_690 | 6.89Mb
-      - HK_692 |11.10Mb
-      - CN_696
-      - HK_688 | 8.91Mb
-      - HK_675 | 8.84Mb
-      - US_1269
-      - US_1278 |33.20Mb
-      - US_1279 |33.74Mb
-      - EE_459 |23.61Mb
-      - JP-45.142.165.23-61
-      - EE_802
-      - HK_676 | 9.15Mb
-      - ZZ_3479 |32.76Mb
-      - EE_456 | 7.85Mb
-      - CN_58
-      - HK_689 | 5.83Mb
-      - ZZ_3452 |42.69Mb
-      - ZZ_3472 |44.04Mb
-      - US_1248 |36.62Mb
+      - CN_37 | 6.60Mb
+      - Relay_-🇺🇸US_2502_21.64Mb
+      - _油管/阿阳AYANG-科技大师
+      - DE_YouTube-阿阳AYANG-科技大师
+      - CN_65 |86.32Mb
+      - SG_174 | 7.27Mb
+      - _ 9.70Mb
+      - CN_74 |235.46Mb
+      - ZZ_3518 |34.69Mb
+      - _20.62Mb
+      - _13.91Mb
+      - _18.52Mb
+      - _20.63Mb
+      - _29.89Mb
+      - _30.12Mb
+      - _18.10Mb
+      - CN_388 | 3.66Mb
+      - _30.23Mb
+      - _30.36Mb
+      - _30.43Mb
+      - SG_177 | 4.07Mb
+      - _ 9.52Mb
+      - _30.37Mb
+      - _30.33Mb
+      - _30.09Mb
+      - _30.68Mb
+      - _30.13Mb
+      - _29.84Mb
+      - _29.93Mb
+      - _30.02Mb
+      - _29.95Mb
+      - _30.07Mb
+      - _30.63Mb
+      - _29.92Mb
+      - _30.15Mb
+      - _30.02Mb 2
+      - _29.90Mb
+      - Relay__42.48Mb
+      - _油管/阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 2 2
+      - _油管/阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 4
+      - _油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 7
+      - YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 10
+      - _油管/阿阳AYANG-科技大师 11
+      - _油管/阿阳AYANG-科技大师 12
+      - CN-YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 13
+      - YouTube-阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 14
+      - 油管/阿阳AYANG-科技大师
+      - US YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 15
+      - _油管/阿阳AYANG-科技大师 16
+      - _油管/阿阳AYANG-科技大师 17
+      - -YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 3
+      - DE_YouTube-阿阳AYANG-科技大师 2
+      - DE-YouTube-阿阳AYANG-科技大师
+      - US-YouTube-阿阳AYANG-科技大师
+      - 油管/阿阳AYANG-科技大师 2
+      - US-YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 3
+      - YouTube-阿阳AYANG-科技大师 5
+      - -YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 18
+      - 油管/阿阳AYANG-科技大师 3
+      - -YouTube-阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 19
+      - RU-YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 20
+      - 油管/阿阳AYANG-科技大师 4
+      - 油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 21
+      - 油管/阿阳AYANG-科技大师 6
+      - 美国-YouTube-阿阳AYANG-科技大师
+      - YouTube-阿阳AYANG-科技大师 6
+      - 油管/阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 22
+      - _油管/阿阳AYANG-科技大师 23
+      - GB_阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 24
+      - _油管/阿阳AYANG-科技大师 25
+      - _油管/阿阳AYANG-科技大师 26
+      - 油管/阿阳AYANG-科技大师 8
+      - GB阿阳AYANG-科技大师
+      - GB_阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 7
+      - GB_阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 27
+      - -YouTube-阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 28
+      - GB_阿阳AYANG-科技大师 4
+      - GB_阿阳AYANG-科技大师 5
+      - 韩国YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 29
+      - _油管/阿阳AYANG-科技大师 30
+      - _油管/阿阳AYANG-科技大师 31
+      - YouTube-阿阳AYANG-科技大师 8
+      - -YouTube-阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 32
+      - _油管/阿阳AYANG-科技大师 33
+      - _油管/阿阳AYANG-科技大师 34
+      - _油管/阿阳AYANG-科技大师 35
+      - _油管/阿阳AYANG-科技大师 36
+      - _油管/阿阳AYANG-科技大师 37
+      - _油管/阿阳AYANG-科技大师 38
+      - _油管/阿阳AYANG-科技大师 39
+      - _油管/阿阳AYANG-科技大师 40
+      - _油管/阿阳AYANG-科技大师 41
+      - _油管/阿阳AYANG-科技大师 42
+      - 油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 43
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - EE_458 | 8.56Mb
-      - EE_460 | 4.58Mb
-      - HK_690 | 6.89Mb
-      - HK_692 |11.10Mb
-      - CN_696
-      - HK_688 | 8.91Mb
-      - HK_675 | 8.84Mb
-      - US_1269
-      - US_1278 |33.20Mb
-      - US_1279 |33.74Mb
-      - EE_459 |23.61Mb
-      - JP-45.142.165.23-61
-      - EE_802
-      - HK_676 | 9.15Mb
-      - ZZ_3479 |32.76Mb
-      - EE_456 | 7.85Mb
-      - CN_58
-      - HK_689 | 5.83Mb
-      - ZZ_3452 |42.69Mb
-      - ZZ_3472 |44.04Mb
-      - US_1248 |36.62Mb
+      - CN_37 | 6.60Mb
+      - Relay_-🇺🇸US_2502_21.64Mb
+      - _油管/阿阳AYANG-科技大师
+      - DE_YouTube-阿阳AYANG-科技大师
+      - CN_65 |86.32Mb
+      - SG_174 | 7.27Mb
+      - _ 9.70Mb
+      - CN_74 |235.46Mb
+      - ZZ_3518 |34.69Mb
+      - _20.62Mb
+      - _13.91Mb
+      - _18.52Mb
+      - _20.63Mb
+      - _29.89Mb
+      - _30.12Mb
+      - _18.10Mb
+      - CN_388 | 3.66Mb
+      - _30.23Mb
+      - _30.36Mb
+      - _30.43Mb
+      - SG_177 | 4.07Mb
+      - _ 9.52Mb
+      - _30.37Mb
+      - _30.33Mb
+      - _30.09Mb
+      - _30.68Mb
+      - _30.13Mb
+      - _29.84Mb
+      - _29.93Mb
+      - _30.02Mb
+      - _29.95Mb
+      - _30.07Mb
+      - _30.63Mb
+      - _29.92Mb
+      - _30.15Mb
+      - _30.02Mb 2
+      - _29.90Mb
+      - Relay__42.48Mb
+      - _油管/阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 2 2
+      - _油管/阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 4
+      - _油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 7
+      - YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 10
+      - _油管/阿阳AYANG-科技大师 11
+      - _油管/阿阳AYANG-科技大师 12
+      - CN-YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 13
+      - YouTube-阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 14
+      - 油管/阿阳AYANG-科技大师
+      - US YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 15
+      - _油管/阿阳AYANG-科技大师 16
+      - _油管/阿阳AYANG-科技大师 17
+      - -YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 3
+      - DE_YouTube-阿阳AYANG-科技大师 2
+      - DE-YouTube-阿阳AYANG-科技大师
+      - US-YouTube-阿阳AYANG-科技大师
+      - 油管/阿阳AYANG-科技大师 2
+      - US-YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 3
+      - YouTube-阿阳AYANG-科技大师 5
+      - -YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 18
+      - 油管/阿阳AYANG-科技大师 3
+      - -YouTube-阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 19
+      - RU-YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 20
+      - 油管/阿阳AYANG-科技大师 4
+      - 油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 21
+      - 油管/阿阳AYANG-科技大师 6
+      - 美国-YouTube-阿阳AYANG-科技大师
+      - YouTube-阿阳AYANG-科技大师 6
+      - 油管/阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 22
+      - _油管/阿阳AYANG-科技大师 23
+      - GB_阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 24
+      - _油管/阿阳AYANG-科技大师 25
+      - _油管/阿阳AYANG-科技大师 26
+      - 油管/阿阳AYANG-科技大师 8
+      - GB阿阳AYANG-科技大师
+      - GB_阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 7
+      - GB_阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 27
+      - -YouTube-阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 28
+      - GB_阿阳AYANG-科技大师 4
+      - GB_阿阳AYANG-科技大师 5
+      - 韩国YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 29
+      - _油管/阿阳AYANG-科技大师 30
+      - _油管/阿阳AYANG-科技大师 31
+      - YouTube-阿阳AYANG-科技大师 8
+      - -YouTube-阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 32
+      - _油管/阿阳AYANG-科技大师 33
+      - _油管/阿阳AYANG-科技大师 34
+      - _油管/阿阳AYANG-科技大师 35
+      - _油管/阿阳AYANG-科技大师 36
+      - _油管/阿阳AYANG-科技大师 37
+      - _油管/阿阳AYANG-科技大师 38
+      - _油管/阿阳AYANG-科技大师 39
+      - _油管/阿阳AYANG-科技大师 40
+      - _油管/阿阳AYANG-科技大师 41
+      - _油管/阿阳AYANG-科技大师 42
+      - 油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 43
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EE_458 | 8.56Mb
-      - EE_460 | 4.58Mb
-      - HK_690 | 6.89Mb
-      - HK_692 |11.10Mb
-      - CN_696
-      - HK_688 | 8.91Mb
-      - HK_675 | 8.84Mb
-      - US_1269
-      - US_1278 |33.20Mb
-      - US_1279 |33.74Mb
-      - EE_459 |23.61Mb
-      - JP-45.142.165.23-61
-      - EE_802
-      - HK_676 | 9.15Mb
-      - ZZ_3479 |32.76Mb
-      - EE_456 | 7.85Mb
-      - CN_58
-      - HK_689 | 5.83Mb
-      - ZZ_3452 |42.69Mb
-      - ZZ_3472 |44.04Mb
-      - US_1248 |36.62Mb
+      - CN_37 | 6.60Mb
+      - Relay_-🇺🇸US_2502_21.64Mb
+      - _油管/阿阳AYANG-科技大师
+      - DE_YouTube-阿阳AYANG-科技大师
+      - CN_65 |86.32Mb
+      - SG_174 | 7.27Mb
+      - _ 9.70Mb
+      - CN_74 |235.46Mb
+      - ZZ_3518 |34.69Mb
+      - _20.62Mb
+      - _13.91Mb
+      - _18.52Mb
+      - _20.63Mb
+      - _29.89Mb
+      - _30.12Mb
+      - _18.10Mb
+      - CN_388 | 3.66Mb
+      - _30.23Mb
+      - _30.36Mb
+      - _30.43Mb
+      - SG_177 | 4.07Mb
+      - _ 9.52Mb
+      - _30.37Mb
+      - _30.33Mb
+      - _30.09Mb
+      - _30.68Mb
+      - _30.13Mb
+      - _29.84Mb
+      - _29.93Mb
+      - _30.02Mb
+      - _29.95Mb
+      - _30.07Mb
+      - _30.63Mb
+      - _29.92Mb
+      - _30.15Mb
+      - _30.02Mb 2
+      - _29.90Mb
+      - Relay__42.48Mb
+      - _油管/阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 2 2
+      - _油管/阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 4
+      - _油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 7
+      - YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 10
+      - _油管/阿阳AYANG-科技大师 11
+      - _油管/阿阳AYANG-科技大师 12
+      - CN-YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 13
+      - YouTube-阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 14
+      - 油管/阿阳AYANG-科技大师
+      - US YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 15
+      - _油管/阿阳AYANG-科技大师 16
+      - _油管/阿阳AYANG-科技大师 17
+      - -YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 3
+      - DE_YouTube-阿阳AYANG-科技大师 2
+      - DE-YouTube-阿阳AYANG-科技大师
+      - US-YouTube-阿阳AYANG-科技大师
+      - 油管/阿阳AYANG-科技大师 2
+      - US-YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 3
+      - YouTube-阿阳AYANG-科技大师 5
+      - -YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 18
+      - 油管/阿阳AYANG-科技大师 3
+      - -YouTube-阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 19
+      - RU-YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 20
+      - 油管/阿阳AYANG-科技大师 4
+      - 油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 21
+      - 油管/阿阳AYANG-科技大师 6
+      - 美国-YouTube-阿阳AYANG-科技大师
+      - YouTube-阿阳AYANG-科技大师 6
+      - 油管/阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 22
+      - _油管/阿阳AYANG-科技大师 23
+      - GB_阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 24
+      - _油管/阿阳AYANG-科技大师 25
+      - _油管/阿阳AYANG-科技大师 26
+      - 油管/阿阳AYANG-科技大师 8
+      - GB阿阳AYANG-科技大师
+      - GB_阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 7
+      - GB_阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 27
+      - -YouTube-阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 28
+      - GB_阿阳AYANG-科技大师 4
+      - GB_阿阳AYANG-科技大师 5
+      - 韩国YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 29
+      - _油管/阿阳AYANG-科技大师 30
+      - _油管/阿阳AYANG-科技大师 31
+      - YouTube-阿阳AYANG-科技大师 8
+      - -YouTube-阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 32
+      - _油管/阿阳AYANG-科技大师 33
+      - _油管/阿阳AYANG-科技大师 34
+      - _油管/阿阳AYANG-科技大师 35
+      - _油管/阿阳AYANG-科技大师 36
+      - _油管/阿阳AYANG-科技大师 37
+      - _油管/阿阳AYANG-科技大师 38
+      - _油管/阿阳AYANG-科技大师 39
+      - _油管/阿阳AYANG-科技大师 40
+      - _油管/阿阳AYANG-科技大师 41
+      - _油管/阿阳AYANG-科技大师 42
+      - 油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 43
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -154,27 +528,128 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EE_458 | 8.56Mb
-      - EE_460 | 4.58Mb
-      - HK_690 | 6.89Mb
-      - HK_692 |11.10Mb
-      - CN_696
-      - HK_688 | 8.91Mb
-      - HK_675 | 8.84Mb
-      - US_1269
-      - US_1278 |33.20Mb
-      - US_1279 |33.74Mb
-      - EE_459 |23.61Mb
-      - JP-45.142.165.23-61
-      - EE_802
-      - HK_676 | 9.15Mb
-      - ZZ_3479 |32.76Mb
-      - EE_456 | 7.85Mb
-      - CN_58
-      - HK_689 | 5.83Mb
-      - ZZ_3452 |42.69Mb
-      - ZZ_3472 |44.04Mb
-      - US_1248 |36.62Mb
+      - CN_37 | 6.60Mb
+      - Relay_-🇺🇸US_2502_21.64Mb
+      - _油管/阿阳AYANG-科技大师
+      - DE_YouTube-阿阳AYANG-科技大师
+      - CN_65 |86.32Mb
+      - SG_174 | 7.27Mb
+      - _ 9.70Mb
+      - CN_74 |235.46Mb
+      - ZZ_3518 |34.69Mb
+      - _20.62Mb
+      - _13.91Mb
+      - _18.52Mb
+      - _20.63Mb
+      - _29.89Mb
+      - _30.12Mb
+      - _18.10Mb
+      - CN_388 | 3.66Mb
+      - _30.23Mb
+      - _30.36Mb
+      - _30.43Mb
+      - SG_177 | 4.07Mb
+      - _ 9.52Mb
+      - _30.37Mb
+      - _30.33Mb
+      - _30.09Mb
+      - _30.68Mb
+      - _30.13Mb
+      - _29.84Mb
+      - _29.93Mb
+      - _30.02Mb
+      - _29.95Mb
+      - _30.07Mb
+      - _30.63Mb
+      - _29.92Mb
+      - _30.15Mb
+      - _30.02Mb 2
+      - _29.90Mb
+      - Relay__42.48Mb
+      - _油管/阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 2 2
+      - _油管/阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 4
+      - _油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 7
+      - YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 10
+      - _油管/阿阳AYANG-科技大师 11
+      - _油管/阿阳AYANG-科技大师 12
+      - CN-YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 13
+      - YouTube-阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 14
+      - 油管/阿阳AYANG-科技大师
+      - US YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 15
+      - _油管/阿阳AYANG-科技大师 16
+      - _油管/阿阳AYANG-科技大师 17
+      - -YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 3
+      - DE_YouTube-阿阳AYANG-科技大师 2
+      - DE-YouTube-阿阳AYANG-科技大师
+      - US-YouTube-阿阳AYANG-科技大师
+      - 油管/阿阳AYANG-科技大师 2
+      - US-YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 3
+      - YouTube-阿阳AYANG-科技大师 5
+      - -YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 18
+      - 油管/阿阳AYANG-科技大师 3
+      - -YouTube-阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 19
+      - RU-YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 20
+      - 油管/阿阳AYANG-科技大师 4
+      - 油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 21
+      - 油管/阿阳AYANG-科技大师 6
+      - 美国-YouTube-阿阳AYANG-科技大师
+      - YouTube-阿阳AYANG-科技大师 6
+      - 油管/阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 22
+      - _油管/阿阳AYANG-科技大师 23
+      - GB_阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 24
+      - _油管/阿阳AYANG-科技大师 25
+      - _油管/阿阳AYANG-科技大师 26
+      - 油管/阿阳AYANG-科技大师 8
+      - GB阿阳AYANG-科技大师
+      - GB_阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 7
+      - GB_阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 27
+      - -YouTube-阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 28
+      - GB_阿阳AYANG-科技大师 4
+      - GB_阿阳AYANG-科技大师 5
+      - 韩国YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 29
+      - _油管/阿阳AYANG-科技大师 30
+      - _油管/阿阳AYANG-科技大师 31
+      - YouTube-阿阳AYANG-科技大师 8
+      - -YouTube-阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 32
+      - _油管/阿阳AYANG-科技大师 33
+      - _油管/阿阳AYANG-科技大师 34
+      - _油管/阿阳AYANG-科技大师 35
+      - _油管/阿阳AYANG-科技大师 36
+      - _油管/阿阳AYANG-科技大师 37
+      - _油管/阿阳AYANG-科技大师 38
+      - _油管/阿阳AYANG-科技大师 39
+      - _油管/阿阳AYANG-科技大师 40
+      - _油管/阿阳AYANG-科技大师 41
+      - _油管/阿阳AYANG-科技大师 42
+      - 油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 43
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -185,80 +660,383 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - EE_458 | 8.56Mb
-      - EE_460 | 4.58Mb
-      - HK_690 | 6.89Mb
-      - HK_692 |11.10Mb
-      - CN_696
-      - HK_688 | 8.91Mb
-      - HK_675 | 8.84Mb
-      - US_1269
-      - US_1278 |33.20Mb
-      - US_1279 |33.74Mb
-      - EE_459 |23.61Mb
-      - JP-45.142.165.23-61
-      - EE_802
-      - HK_676 | 9.15Mb
-      - ZZ_3479 |32.76Mb
-      - EE_456 | 7.85Mb
-      - CN_58
-      - HK_689 | 5.83Mb
-      - ZZ_3452 |42.69Mb
-      - ZZ_3472 |44.04Mb
-      - US_1248 |36.62Mb
+      - CN_37 | 6.60Mb
+      - Relay_-🇺🇸US_2502_21.64Mb
+      - _油管/阿阳AYANG-科技大师
+      - DE_YouTube-阿阳AYANG-科技大师
+      - CN_65 |86.32Mb
+      - SG_174 | 7.27Mb
+      - _ 9.70Mb
+      - CN_74 |235.46Mb
+      - ZZ_3518 |34.69Mb
+      - _20.62Mb
+      - _13.91Mb
+      - _18.52Mb
+      - _20.63Mb
+      - _29.89Mb
+      - _30.12Mb
+      - _18.10Mb
+      - CN_388 | 3.66Mb
+      - _30.23Mb
+      - _30.36Mb
+      - _30.43Mb
+      - SG_177 | 4.07Mb
+      - _ 9.52Mb
+      - _30.37Mb
+      - _30.33Mb
+      - _30.09Mb
+      - _30.68Mb
+      - _30.13Mb
+      - _29.84Mb
+      - _29.93Mb
+      - _30.02Mb
+      - _29.95Mb
+      - _30.07Mb
+      - _30.63Mb
+      - _29.92Mb
+      - _30.15Mb
+      - _30.02Mb 2
+      - _29.90Mb
+      - Relay__42.48Mb
+      - _油管/阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 2 2
+      - _油管/阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 4
+      - _油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 7
+      - YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 10
+      - _油管/阿阳AYANG-科技大师 11
+      - _油管/阿阳AYANG-科技大师 12
+      - CN-YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 13
+      - YouTube-阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 14
+      - 油管/阿阳AYANG-科技大师
+      - US YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 15
+      - _油管/阿阳AYANG-科技大师 16
+      - _油管/阿阳AYANG-科技大师 17
+      - -YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 3
+      - DE_YouTube-阿阳AYANG-科技大师 2
+      - DE-YouTube-阿阳AYANG-科技大师
+      - US-YouTube-阿阳AYANG-科技大师
+      - 油管/阿阳AYANG-科技大师 2
+      - US-YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 3
+      - YouTube-阿阳AYANG-科技大师 5
+      - -YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 18
+      - 油管/阿阳AYANG-科技大师 3
+      - -YouTube-阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 19
+      - RU-YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 20
+      - 油管/阿阳AYANG-科技大师 4
+      - 油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 21
+      - 油管/阿阳AYANG-科技大师 6
+      - 美国-YouTube-阿阳AYANG-科技大师
+      - YouTube-阿阳AYANG-科技大师 6
+      - 油管/阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 22
+      - _油管/阿阳AYANG-科技大师 23
+      - GB_阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 24
+      - _油管/阿阳AYANG-科技大师 25
+      - _油管/阿阳AYANG-科技大师 26
+      - 油管/阿阳AYANG-科技大师 8
+      - GB阿阳AYANG-科技大师
+      - GB_阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 7
+      - GB_阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 27
+      - -YouTube-阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 28
+      - GB_阿阳AYANG-科技大师 4
+      - GB_阿阳AYANG-科技大师 5
+      - 韩国YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 29
+      - _油管/阿阳AYANG-科技大师 30
+      - _油管/阿阳AYANG-科技大师 31
+      - YouTube-阿阳AYANG-科技大师 8
+      - -YouTube-阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 32
+      - _油管/阿阳AYANG-科技大师 33
+      - _油管/阿阳AYANG-科技大师 34
+      - _油管/阿阳AYANG-科技大师 35
+      - _油管/阿阳AYANG-科技大师 36
+      - _油管/阿阳AYANG-科技大师 37
+      - _油管/阿阳AYANG-科技大师 38
+      - _油管/阿阳AYANG-科技大师 39
+      - _油管/阿阳AYANG-科技大师 40
+      - _油管/阿阳AYANG-科技大师 41
+      - _油管/阿阳AYANG-科技大师 42
+      - 油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 43
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - EE_458 | 8.56Mb
-      - EE_460 | 4.58Mb
-      - HK_690 | 6.89Mb
-      - HK_692 |11.10Mb
-      - CN_696
-      - HK_688 | 8.91Mb
-      - HK_675 | 8.84Mb
-      - US_1269
-      - US_1278 |33.20Mb
-      - US_1279 |33.74Mb
-      - EE_459 |23.61Mb
-      - JP-45.142.165.23-61
-      - EE_802
-      - HK_676 | 9.15Mb
-      - ZZ_3479 |32.76Mb
-      - EE_456 | 7.85Mb
-      - CN_58
-      - HK_689 | 5.83Mb
-      - ZZ_3452 |42.69Mb
-      - ZZ_3472 |44.04Mb
-      - US_1248 |36.62Mb
+      - CN_37 | 6.60Mb
+      - Relay_-🇺🇸US_2502_21.64Mb
+      - _油管/阿阳AYANG-科技大师
+      - DE_YouTube-阿阳AYANG-科技大师
+      - CN_65 |86.32Mb
+      - SG_174 | 7.27Mb
+      - _ 9.70Mb
+      - CN_74 |235.46Mb
+      - ZZ_3518 |34.69Mb
+      - _20.62Mb
+      - _13.91Mb
+      - _18.52Mb
+      - _20.63Mb
+      - _29.89Mb
+      - _30.12Mb
+      - _18.10Mb
+      - CN_388 | 3.66Mb
+      - _30.23Mb
+      - _30.36Mb
+      - _30.43Mb
+      - SG_177 | 4.07Mb
+      - _ 9.52Mb
+      - _30.37Mb
+      - _30.33Mb
+      - _30.09Mb
+      - _30.68Mb
+      - _30.13Mb
+      - _29.84Mb
+      - _29.93Mb
+      - _30.02Mb
+      - _29.95Mb
+      - _30.07Mb
+      - _30.63Mb
+      - _29.92Mb
+      - _30.15Mb
+      - _30.02Mb 2
+      - _29.90Mb
+      - Relay__42.48Mb
+      - _油管/阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 2 2
+      - _油管/阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 4
+      - _油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 7
+      - YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 10
+      - _油管/阿阳AYANG-科技大师 11
+      - _油管/阿阳AYANG-科技大师 12
+      - CN-YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 13
+      - YouTube-阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 14
+      - 油管/阿阳AYANG-科技大师
+      - US YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 15
+      - _油管/阿阳AYANG-科技大师 16
+      - _油管/阿阳AYANG-科技大师 17
+      - -YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 3
+      - DE_YouTube-阿阳AYANG-科技大师 2
+      - DE-YouTube-阿阳AYANG-科技大师
+      - US-YouTube-阿阳AYANG-科技大师
+      - 油管/阿阳AYANG-科技大师 2
+      - US-YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 3
+      - YouTube-阿阳AYANG-科技大师 5
+      - -YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 18
+      - 油管/阿阳AYANG-科技大师 3
+      - -YouTube-阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 19
+      - RU-YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 20
+      - 油管/阿阳AYANG-科技大师 4
+      - 油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 21
+      - 油管/阿阳AYANG-科技大师 6
+      - 美国-YouTube-阿阳AYANG-科技大师
+      - YouTube-阿阳AYANG-科技大师 6
+      - 油管/阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 22
+      - _油管/阿阳AYANG-科技大师 23
+      - GB_阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 24
+      - _油管/阿阳AYANG-科技大师 25
+      - _油管/阿阳AYANG-科技大师 26
+      - 油管/阿阳AYANG-科技大师 8
+      - GB阿阳AYANG-科技大师
+      - GB_阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 7
+      - GB_阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 27
+      - -YouTube-阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 28
+      - GB_阿阳AYANG-科技大师 4
+      - GB_阿阳AYANG-科技大师 5
+      - 韩国YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 29
+      - _油管/阿阳AYANG-科技大师 30
+      - _油管/阿阳AYANG-科技大师 31
+      - YouTube-阿阳AYANG-科技大师 8
+      - -YouTube-阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 32
+      - _油管/阿阳AYANG-科技大师 33
+      - _油管/阿阳AYANG-科技大师 34
+      - _油管/阿阳AYANG-科技大师 35
+      - _油管/阿阳AYANG-科技大师 36
+      - _油管/阿阳AYANG-科技大师 37
+      - _油管/阿阳AYANG-科技大师 38
+      - _油管/阿阳AYANG-科技大师 39
+      - _油管/阿阳AYANG-科技大师 40
+      - _油管/阿阳AYANG-科技大师 41
+      - _油管/阿阳AYANG-科技大师 42
+      - 油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 43
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - EE_458 | 8.56Mb
-      - EE_460 | 4.58Mb
-      - HK_690 | 6.89Mb
-      - HK_692 |11.10Mb
-      - CN_696
-      - HK_688 | 8.91Mb
-      - HK_675 | 8.84Mb
-      - US_1269
-      - US_1278 |33.20Mb
-      - US_1279 |33.74Mb
-      - EE_459 |23.61Mb
-      - JP-45.142.165.23-61
-      - EE_802
-      - HK_676 | 9.15Mb
-      - ZZ_3479 |32.76Mb
-      - EE_456 | 7.85Mb
-      - CN_58
-      - HK_689 | 5.83Mb
-      - ZZ_3452 |42.69Mb
-      - ZZ_3472 |44.04Mb
-      - US_1248 |36.62Mb
+      - CN_37 | 6.60Mb
+      - Relay_-🇺🇸US_2502_21.64Mb
+      - _油管/阿阳AYANG-科技大师
+      - DE_YouTube-阿阳AYANG-科技大师
+      - CN_65 |86.32Mb
+      - SG_174 | 7.27Mb
+      - _ 9.70Mb
+      - CN_74 |235.46Mb
+      - ZZ_3518 |34.69Mb
+      - _20.62Mb
+      - _13.91Mb
+      - _18.52Mb
+      - _20.63Mb
+      - _29.89Mb
+      - _30.12Mb
+      - _18.10Mb
+      - CN_388 | 3.66Mb
+      - _30.23Mb
+      - _30.36Mb
+      - _30.43Mb
+      - SG_177 | 4.07Mb
+      - _ 9.52Mb
+      - _30.37Mb
+      - _30.33Mb
+      - _30.09Mb
+      - _30.68Mb
+      - _30.13Mb
+      - _29.84Mb
+      - _29.93Mb
+      - _30.02Mb
+      - _29.95Mb
+      - _30.07Mb
+      - _30.63Mb
+      - _29.92Mb
+      - _30.15Mb
+      - _30.02Mb 2
+      - _29.90Mb
+      - Relay__42.48Mb
+      - _油管/阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 2 2
+      - _油管/阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 4
+      - _油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 7
+      - YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 10
+      - _油管/阿阳AYANG-科技大师 11
+      - _油管/阿阳AYANG-科技大师 12
+      - CN-YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 13
+      - YouTube-阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 14
+      - 油管/阿阳AYANG-科技大师
+      - US YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 15
+      - _油管/阿阳AYANG-科技大师 16
+      - _油管/阿阳AYANG-科技大师 17
+      - -YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 3
+      - DE_YouTube-阿阳AYANG-科技大师 2
+      - DE-YouTube-阿阳AYANG-科技大师
+      - US-YouTube-阿阳AYANG-科技大师
+      - 油管/阿阳AYANG-科技大师 2
+      - US-YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 3
+      - YouTube-阿阳AYANG-科技大师 5
+      - -YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 18
+      - 油管/阿阳AYANG-科技大师 3
+      - -YouTube-阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 19
+      - RU-YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 20
+      - 油管/阿阳AYANG-科技大师 4
+      - 油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 21
+      - 油管/阿阳AYANG-科技大师 6
+      - 美国-YouTube-阿阳AYANG-科技大师
+      - YouTube-阿阳AYANG-科技大师 6
+      - 油管/阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 22
+      - _油管/阿阳AYANG-科技大师 23
+      - GB_阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 24
+      - _油管/阿阳AYANG-科技大师 25
+      - _油管/阿阳AYANG-科技大师 26
+      - 油管/阿阳AYANG-科技大师 8
+      - GB阿阳AYANG-科技大师
+      - GB_阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 7
+      - GB_阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 27
+      - -YouTube-阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 28
+      - GB_阿阳AYANG-科技大师 4
+      - GB_阿阳AYANG-科技大师 5
+      - 韩国YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 29
+      - _油管/阿阳AYANG-科技大师 30
+      - _油管/阿阳AYANG-科技大师 31
+      - YouTube-阿阳AYANG-科技大师 8
+      - -YouTube-阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 32
+      - _油管/阿阳AYANG-科技大师 33
+      - _油管/阿阳AYANG-科技大师 34
+      - _油管/阿阳AYANG-科技大师 35
+      - _油管/阿阳AYANG-科技大师 36
+      - _油管/阿阳AYANG-科技大师 37
+      - _油管/阿阳AYANG-科技大师 38
+      - _油管/阿阳AYANG-科技大师 39
+      - _油管/阿阳AYANG-科技大师 40
+      - _油管/阿阳AYANG-科技大师 41
+      - _油管/阿阳AYANG-科技大师 42
+      - 油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 43
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -274,27 +1052,128 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - EE_458 | 8.56Mb
-      - EE_460 | 4.58Mb
-      - HK_690 | 6.89Mb
-      - HK_692 |11.10Mb
-      - CN_696
-      - HK_688 | 8.91Mb
-      - HK_675 | 8.84Mb
-      - US_1269
-      - US_1278 |33.20Mb
-      - US_1279 |33.74Mb
-      - EE_459 |23.61Mb
-      - JP-45.142.165.23-61
-      - EE_802
-      - HK_676 | 9.15Mb
-      - ZZ_3479 |32.76Mb
-      - EE_456 | 7.85Mb
-      - CN_58
-      - HK_689 | 5.83Mb
-      - ZZ_3452 |42.69Mb
-      - ZZ_3472 |44.04Mb
-      - US_1248 |36.62Mb
+      - CN_37 | 6.60Mb
+      - Relay_-🇺🇸US_2502_21.64Mb
+      - _油管/阿阳AYANG-科技大师
+      - DE_YouTube-阿阳AYANG-科技大师
+      - CN_65 |86.32Mb
+      - SG_174 | 7.27Mb
+      - _ 9.70Mb
+      - CN_74 |235.46Mb
+      - ZZ_3518 |34.69Mb
+      - _20.62Mb
+      - _13.91Mb
+      - _18.52Mb
+      - _20.63Mb
+      - _29.89Mb
+      - _30.12Mb
+      - _18.10Mb
+      - CN_388 | 3.66Mb
+      - _30.23Mb
+      - _30.36Mb
+      - _30.43Mb
+      - SG_177 | 4.07Mb
+      - _ 9.52Mb
+      - _30.37Mb
+      - _30.33Mb
+      - _30.09Mb
+      - _30.68Mb
+      - _30.13Mb
+      - _29.84Mb
+      - _29.93Mb
+      - _30.02Mb
+      - _29.95Mb
+      - _30.07Mb
+      - _30.63Mb
+      - _29.92Mb
+      - _30.15Mb
+      - _30.02Mb 2
+      - _29.90Mb
+      - Relay__42.48Mb
+      - _油管/阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 2 2
+      - _油管/阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 4
+      - _油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 7
+      - YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 10
+      - _油管/阿阳AYANG-科技大师 11
+      - _油管/阿阳AYANG-科技大师 12
+      - CN-YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 13
+      - YouTube-阿阳AYANG-科技大师 2
+      - _油管/阿阳AYANG-科技大师 14
+      - 油管/阿阳AYANG-科技大师
+      - US YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 15
+      - _油管/阿阳AYANG-科技大师 16
+      - _油管/阿阳AYANG-科技大师 17
+      - -YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 3
+      - DE_YouTube-阿阳AYANG-科技大师 2
+      - DE-YouTube-阿阳AYANG-科技大师
+      - US-YouTube-阿阳AYANG-科技大师
+      - 油管/阿阳AYANG-科技大师 2
+      - US-YouTube-阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 3
+      - YouTube-阿阳AYANG-科技大师 5
+      - -YouTube-阿阳AYANG-科技大师 4
+      - -YouTube-阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 18
+      - 油管/阿阳AYANG-科技大师 3
+      - -YouTube-阿阳AYANG-科技大师 6
+      - _油管/阿阳AYANG-科技大师 19
+      - RU-YouTube-阿阳AYANG-科技大师
+      - -YouTube-阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 20
+      - 油管/阿阳AYANG-科技大师 4
+      - 油管/阿阳AYANG-科技大师 5
+      - _油管/阿阳AYANG-科技大师 21
+      - 油管/阿阳AYANG-科技大师 6
+      - 美国-YouTube-阿阳AYANG-科技大师
+      - YouTube-阿阳AYANG-科技大师 6
+      - 油管/阿阳AYANG-科技大师 7
+      - _油管/阿阳AYANG-科技大师 22
+      - _油管/阿阳AYANG-科技大师 23
+      - GB_阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 24
+      - _油管/阿阳AYANG-科技大师 25
+      - _油管/阿阳AYANG-科技大师 26
+      - 油管/阿阳AYANG-科技大师 8
+      - GB阿阳AYANG-科技大师
+      - GB_阿阳AYANG-科技大师 2
+      - YouTube-阿阳AYANG-科技大师 7
+      - GB_阿阳AYANG-科技大师 3
+      - _油管/阿阳AYANG-科技大师 27
+      - -YouTube-阿阳AYANG-科技大师 8
+      - _油管/阿阳AYANG-科技大师 28
+      - GB_阿阳AYANG-科技大师 4
+      - GB_阿阳AYANG-科技大师 5
+      - 韩国YouTube-阿阳AYANG-科技大师
+      - _油管/阿阳AYANG-科技大师 29
+      - _油管/阿阳AYANG-科技大师 30
+      - _油管/阿阳AYANG-科技大师 31
+      - YouTube-阿阳AYANG-科技大师 8
+      - -YouTube-阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 32
+      - _油管/阿阳AYANG-科技大师 33
+      - _油管/阿阳AYANG-科技大师 34
+      - _油管/阿阳AYANG-科技大师 35
+      - _油管/阿阳AYANG-科技大师 36
+      - _油管/阿阳AYANG-科技大师 37
+      - _油管/阿阳AYANG-科技大师 38
+      - _油管/阿阳AYANG-科技大师 39
+      - _油管/阿阳AYANG-科技大师 40
+      - _油管/阿阳AYANG-科技大师 41
+      - _油管/阿阳AYANG-科技大师 42
+      - 油管/阿阳AYANG-科技大师 9
+      - _油管/阿阳AYANG-科技大师 43
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
